@@ -24,6 +24,8 @@ public  class BasePage extends ExtentReportsDemo
 	}
 	//  comment for commiting in base page
 	
+	//comment for adding 2nd time
+	
 	public void verifyTitle(String eTitle)
 	{
 		try
