@@ -22,7 +22,7 @@ public  class BasePage extends ExtentReportsDemo
 		PageFactory.initElements(driver, this);
 		
 	}
-	
+	//  comment for commiting in base page
 	
 	public void verifyTitle(String eTitle)
 	{
