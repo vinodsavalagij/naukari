@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="POMTest.LogOut">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- POMTest.LogOut -->
+      <class name="POMTest.VerifySearch">
+        <methods>
+          <include name="searchJob"/>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- POMTest.VerifySearch -->
+      <class name="POMTest.ValidLogIn">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- POMTest.ValidLogIn -->
+      <class name="rnD.ExplicitWait">
+        <methods>
+          <include name="Waits"/>
+        </methods>
+      </class> <!-- rnD.ExplicitWait -->
+      <class name="POMTest.DownloadResume">
+        <methods>
+          <include name="downloadResume"/>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- POMTest.DownloadResume -->
+      <class name="POMTest.ReadingDates">
+        <methods>
+          <include name="readDate"/>
+        </methods>
+      </class> <!-- POMTest.ReadingDates -->
+      <class name="POMTest.UpdateProfile">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- POMTest.UpdateProfile -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

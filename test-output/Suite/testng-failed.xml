@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="POMTest.LogOut">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- POMTest.LogOut -->
+      <class name="POMTest.ValidLogIn">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- POMTest.ValidLogIn -->
+      <class name="POMTest.UpdateProfile">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- POMTest.UpdateProfile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
