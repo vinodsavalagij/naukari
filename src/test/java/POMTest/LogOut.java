@@ -15,7 +15,7 @@ import POM.Page.LogInPage;
 @Listeners(POM.Page.ListenersInterface.class)
 public class LogOut extends BaseTest
 {
-	
+	//comment line in logout
 	@Test
 	public void logout() throws InterruptedException
 	{
