@@ -18,7 +18,11 @@ public class ValidLogIn extends BaseTest
 
 {
 	
+<<<<<<< HEAD
 asfdfd	@Test
+=======
+	@Test//vinod
+>>>>>>> branch 'master' of https://github.com/vinodsavalagij/naukari.git
 	public void testValidLogin() throws InterruptedException
 	{
 		
