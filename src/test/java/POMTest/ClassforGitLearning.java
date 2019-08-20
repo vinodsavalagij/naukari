@@ -66,15 +66,7 @@ public class DownloadResume extends BaseTest
 	
 	@Test
 	
-	public void downloadResume() throws InterruptedException
 	
-	{
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		LogInPage l =new LogInPage(driver);
-		
-		l.setUserName("vinodsavalagij@gmail.com");
-		l.setPassword("9901464350");
-		
 		l.login();
 		
 		Thread.sleep(1000);
