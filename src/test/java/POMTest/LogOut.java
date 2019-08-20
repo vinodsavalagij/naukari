@@ -24,7 +24,7 @@ public class LogOut extends BaseTest
 	public void logout() throws InterruptedException
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		LogInPage l=new LogInPage(driver);
+		LogInPage l=new LogInPage(driver) ;
 		
 		Thread.sleep(5000);
 		l.setUserName("vinodsavalagij@gmail.com");
