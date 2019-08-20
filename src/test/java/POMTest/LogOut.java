@@ -14,7 +14,7 @@ import POM.Page.LogInPage;
 
 @Listeners(POM.Page.ListenersInterface.class)
 public class LogOut extends BaseTest
-{
+{vinod
 	
 	@Test
 	public void logout() throws InterruptedException

@@ -18,7 +18,7 @@ public class ValidLogIn extends BaseTest
 
 {
 	
-	@Test
+	@Test//vinod
 	public void testValidLogin() throws InterruptedException
 	{
 		
