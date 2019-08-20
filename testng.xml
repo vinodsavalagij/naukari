@@ -4,6 +4,11 @@
   <test name="Test">
     <classes>
       <class name="POMTest.UpdateProfile"/>
+      
+      <methods>
+      
+      
+      </methods>
       <class name="POM.Page.BaseTest"/>
       <class name="POMTest.ValidLogIn"/>
       <class name="POMTest.LogOut"/>
