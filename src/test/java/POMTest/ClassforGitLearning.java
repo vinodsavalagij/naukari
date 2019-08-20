@@ -64,9 +64,10 @@ public class DownloadResume extends BaseTest
 	
 	
 	
-	@Test
+
 	 
 nav een	
+
 		l.login();
 		
 		Thread.sleep(1000);
