@@ -54,7 +54,6 @@ public class DownloadResume extends BaseTest
 		{
 			String fileName=filesIndir[i].getName();
 			  
-			
 			if(fileName.equalsIgnoreCase(filename))
 			return true;
 		}
