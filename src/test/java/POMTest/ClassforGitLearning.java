@@ -72,6 +72,8 @@ nav een
 		
 		Thread.sleep(1000);
 		
+		vinod svalagi
+		
 		HomePage p = new HomePage(driver);
 		
 		p.clickbutton();
