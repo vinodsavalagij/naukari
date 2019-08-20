@@ -25,7 +25,7 @@ public class LogOut extends BaseTest
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		LogInPage l=new LogInPage(driver) ;
-		
+		llk
 		Thread.sleep(5000);
 		l.setUserName("vinodsavalagij@gmail.com");
 		l.setPassword("9901464350");
