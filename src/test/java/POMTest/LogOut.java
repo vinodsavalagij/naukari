@@ -14,11 +14,10 @@ import POM.Page.LogInPage;
 
 @Listeners(POM.Page.ListenersInterface.class)
 public class LogOut extends BaseTest
-<<<<<<< HEAD
-{naveen
-=======
-{vinod // vinod
->>>>>>> branch 'master' of https://github.com/vinodsavalagij/naukari.git
+
+
+{
+
 	
 	@Test
 	public void logout() throws InterruptedException
